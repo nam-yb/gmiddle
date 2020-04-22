@@ -1,0 +1,141 @@
+/* CSS Document */
+#baseLayout2 { position:relative; }
+
+#wg_popupzone {
+	position:relative;
+	width:230px;
+	height:170px;
+	color:#333;
+    border:1px solid #ccc;
+}
+
+#wg_popupzone .top {
+	width:230px;
+	height:170px;
+	margin-right:5px;
+}
+
+#wg_popupzone .top .tit {
+margin-right:110px;
+}
+
+#wg_popupzone .top p {
+    float:left;
+	font-weight:bold;
+	padding:5px 0 0 10px;
+}
+
+#wg_popupzone .top ul {
+	float:right;
+	padding-right:5px;
+	padding-top:5px;
+    list-style-type:none; 
+    margin:0;
+}
+
+#wg_popupzone .top li {
+	float:left;
+	padding-right:5px;
+}
+
+#wg_popupzone .popupimg {
+    overflow:hidden;
+    position:absolute;
+    width:210px;
+    height:110px;
+    top:30px;
+    left:10px;
+    clear:both;
+    border:1px solid #ccc;
+}
+
+/* 팝업 리스트 */
+#wg_popupillu {
+    font-size:12px;
+
+    position:absolute;
+
+    top:150px;
+
+    z-index:999999;
+}
+
+#wg_popupillu .popupzonebox {
+    position:relative;
+    width:350px;
+    height:430px;
+    background-image:url(../images/layerpopbg.gif);
+    background-color:#FFF;
+}
+
+#wg_popupillu .PopupTitle {
+    position:absolute;
+    top:18px;
+    left:30px;
+}
+
+#wg_popupillu .PopupList {
+    position:absolute;
+
+    top:75px;
+    left:30px;
+
+    width:270px;
+    height:290px;
+
+    padding-left:10px;
+    padding-right:10px;
+
+    overflow-y:scroll;
+    overflow-x:hidden;
+
+}
+
+#wg_popupillu .PopupList ul {
+    margin:0;
+    padding:0;
+
+    list-style:none;
+}
+
+#wg_popupillu .PopupList li {
+    margin:0;
+    padding:0;
+
+    width:255px;
+    height:20px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+
+    padding-top:8px;
+
+    background:url(../images/dotline.gif) repeat-x bottom left;
+}
+
+#wg_popupillu .PopupBtn {
+    position:absolute;
+
+    top:409px;
+    left:0px;
+
+    width:337px;
+    
+    padding-left:5px;
+    padding-right:5px;
+
+    text-align:right;
+}
+
+#wg_popupillu .PopupBtn .left {
+    float:left;
+}
+
+#wg_popupillu .PopupBtn .right {
+    float:right;
+}
+
+#wg_popupillu .PopupBtn a:link    {color: #FFFFFF; text-decoration:none;}
+#wg_popupillu .PopupBtn a:visited {color: #FFFFFF; text-decoration:none;}
+#wg_popupillu .PopupBtn a:active  {color: #FFFFFF; text-decoration:none;}
+#wg_popupillu .PopupBtn a:hover   {color: #FFAA00; text-decoration:none;}

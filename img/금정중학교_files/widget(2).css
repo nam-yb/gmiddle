@@ -1,0 +1,79 @@
+#wg_topmenu {
+	background:url(../images/topmenu_bg.gif) 0 0 no-repeat;
+	width:1000px;
+	height:70px;
+	font-size:0.75em;
+}
+
+#wg_topmenu .top1_bar {
+color:#003971;
+margin-top:13px;
+}
+#wg_topmenu .topmenu_box {
+	position:relative;
+	height:40px;
+}
+#wg_topmenu .topmenu_box ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:970px;
+	margin:auto;
+}
+#wg_topmenu .topmenu_box li {
+	float:left;
+}
+#wg_topmenu .top1_body {
+	padding: 0 11px;
+	margin-top:12px;
+	height:27px;
+}
+#wg_topmenu .menuSub {
+	position:absolute;
+	top:40px;
+	left:0;
+	height:26px;
+}
+#wg_topmenu .menuSub ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#wg_topmenu .menuSub li {
+	float:left;
+}
+#wg_topmenu .top2_left {
+	height:26px;
+	width:8px;
+	/*background:url(../images/topmenu_grp2_left.png)*/;
+}
+#wg_topmenu .top2_body {
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	height:19px;
+}
+#wg_topmenu .top2_right {
+	height:26px;
+	width:8px;/*background:url(../images/topmenu_grp2_right.png);*/
+}
+#wg_topmenu .top2_body_on {
+	padding-top:7px;
+	padding-left:5px;
+	padding-right:5px;
+	font-weight:bold;
+	height:19px;/*background:url(../images/topmenu_grp2_bg.png);*/
+}
+#wg_topmenu .top2_body_on a {
+	color:#f15922;
+}
+#wg_topmenu .top2_body_off {
+	padding-top:7px;
+	padding-left:5px;
+	padding-right:5px;
+	height:19px;
+	font-weight:normal;/*background:url(../images/topmenu_grp2_bg.png);*/
+}
+#wg_topmenu .top2_body_off a {
+	color:#666666;
+}

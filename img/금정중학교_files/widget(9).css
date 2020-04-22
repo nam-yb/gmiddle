@@ -1,0 +1,58 @@
+#baseLayout5 { position:relative; }
+#wg_edusearch {
+
+    font-size:0.75em;
+    float:left;
+background:url(../images/edusearch_bg.gif) 0 0 no-repeat;
+}
+
+#wg_edusearch input, select {
+    font-size:0.8em;
+}
+
+#wg_edusearch .edusearch_box {
+    width:330px;
+    height:70px; 
+}
+
+#wg_edusearch .title {
+    position:absolute;
+    top:7px;
+    left:5px;
+}
+
+#wg_edusearch .edudata {
+    width:200px;
+}
+
+#wg_edusearch .edu_message {
+    position:absolute;
+    top:45px;
+    left:10px;
+}
+
+#wg_edusearch .edu_input {
+    position:absolute;
+    top:15px;
+    left:4px;
+	padding: 3px;
+	width: 240px;
+}
+
+#wg_edusearch .edu_btn {
+    position:absolute;
+    top:31px;
+    left:261px;
+}
+
+#wg_edusearch .edu_radio {
+    position:absolute;
+    top:35px;
+    left:10px;
+}
+
+#wg_edusearch form { border:0; }
+
+#wg_edusearch .link {}
+#wg_edusearch .link ul { list-style:none; }
+#wg_edusearch .link li { float:left; margin-left:10px;}

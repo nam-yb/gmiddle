@@ -1,0 +1,117 @@
+#wg_nbbs {
+	position:relative;
+	width:330px;
+	height:150px;
+	font-size:0.75em;
+background:url(../images/nbbs_bg.gif) no-repeat 0 0;
+}
+#wg_nbbs .bbsbox {
+	width:330px;
+	height:29px;
+                margin-left:1px;
+	border-bottom:1px solid #dedede;
+}
+#wg_nbbs .bbsbox li {
+	width:110px;
+                height:29px;
+	list-style:none;
+	float:left; 
+                margin-top:1px;
+}
+#wg_nbbs .nbbs_data {
+	position:absolute;
+	top:33px;
+	left: 0;
+                width:320px;
+}
+
+#wg_nbbs .nbbs_data ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#wg_nbbs .nbbs_data li {
+	clear:both;
+	height:15px;
+	padding-left:10px;
+	padding-bottom:5px;
+	width:300px; 
+        font-family:Arial, Helvetica, sans-serif,돋움;
+}
+#wg_nbbs .nbbs_data span.data {
+	float:left;
+	width:180px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#wg_nbbs .nbbs_data span.data1 {
+	float:right;
+	width:70px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#wg_nbbs .nbbs_data li span {
+	float:right;
+}
+#wg_nbbs .nbbs_data .data {
+	float:right;
+}
+#wg_nbbs .nbbs_data .more {
+	position:absolute;
+	top:-30px;
+	right:0;
+}
+#wg_nbbs li .nbbs_on {
+	width:110px;
+                height:29px;
+	text-align:center;
+	display:inline-block;
+	background:url(../images/nbbs_tab_on.gif) 0 0 no-repeat;
+}
+#wg_nbbs li .nbbs_on a {
+	width:110px;
+                height:29px;
+	text-align:center;
+	font-weight:bold;
+	display:inline-block;
+	color:#014fa2;
+		background:url(../images/nbbs_tab_on.gif) 0 0 no-repeat;
+
+}
+#wg_nbbs li .nbbs_on a:hover {
+	width:110px;
+                height:29px;
+	text-align:center;
+	font-weight:bold;
+	color:#014fa2;
+	text-decoration:none;
+	background:url	background:url(../images/nbbs_tab_on.gif) 0 0 no-repeat;
+}
+#wg_nbbs li .nbbs_off {
+	width:110px;
+                height:29px;
+	font-weight:bold;
+	text-align:center;
+	display:inline-block;
+	background:url(../images/nbbs_tab_off.gif) 0 0 no-repeat;
+}
+#wg_nbbs li .nbbs_off a {
+	width:110px;
+                height:29px;
+	font-weight:bold;
+	text-align:center;
+	display:inline-block;
+	background:url(../images/nbbs_tab_off.gif) 0 0 no-repeat;
+	color:#535353;
+}
+#wg_nbbs .nbbs_off a:hover {
+	width:110px;
+                height:29px;
+	text-align:center;
+	font-weight:bold;
+	color:#535353;
+	text-decoration:none;
+}
+

@@ -1,0 +1,40 @@
+#wg_banner {
+	position: relative;
+	border:1px solid #c1c1c1;
+}
+#wg_banner .tit {
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+#wg_banner .banner_zone {
+	position: relative;
+	height:60px;
+	background:url(../images/banner_bg.gif) no-repeat;
+}
+#wg_banner .banner_zone .banner_list {
+	position:absolute;
+	width:870px;
+
+	top:12px;
+	left:110px;
+	overflow: hidden;}
+#wg_banner .control_box {
+	position:relative;
+	width:100px;
+	height:60px; }
+#wg_banner .banner_zone .bnn_control_1 {
+	position:absolute;
+	top:10px;
+	left:80px;
+}
+#wg_banner .banner_zone .bnn_control_2 {
+	position:absolute;
+	top:30px;
+	left:80px;
+}
+#wg_banner .banner_zone ul {
+}
+#wg_banner .banner_zone li {
+	padding: 0 10px 0 0;
+}

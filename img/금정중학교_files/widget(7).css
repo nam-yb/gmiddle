@@ -1,0 +1,14 @@
+#wg_html3 {
+}
+
+#wg_html3 .html3_box {
+    width:180px;
+
+}
+
+#wg_html3 .buttons {
+    width:180px;
+}
+
+#wg_html3 .buttons ul { margin:0; padding:0; list-style:none;}
+#wg_html3 .buttons li { }

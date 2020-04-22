@@ -1,0 +1,49 @@
+#wg_calendar {
+    font-size:0.75em;
+    float:left;
+}
+
+#wg_calendar img {
+	vertical-align: top;
+}
+
+#wg_calendar .title {
+    position:absolute;
+
+    top:0;
+    left:0;
+}
+#wg_calendar .navi {
+    margin-top:8px;
+    margin-left:63px;
+	font-size:1.1em;
+	font-family:돋움;
+	color:#0068b1;
+	font-weight:bold;
+	line-height:1;
+}
+
+
+#wg_calendar .calendar {
+    position:absolute;
+
+	width:210px;
+	height:150px;
+
+
+	background:url(../images/calendar_bg.gif) no-repeat;
+}
+
+#wg_calendar .calendar table {
+    margin-top:10px;
+    font-size:11px;
+	font-family:돋움; 
+}
+
+
+.day_th {color:#358a61;}
+.day {color:#626761;}
+.sun {color:#ec4300;}
+.sat {color:#0068b1;}
+
+#wg_calendar a {font-weight:normal; color:494949;}

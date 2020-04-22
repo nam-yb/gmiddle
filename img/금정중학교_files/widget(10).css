@@ -1,0 +1,117 @@
+#wg_gbbs {
+	position:relative;
+	width:400px;
+	height:150px;
+	font-size:0.75em;
+	float:left;
+                background:url(../images/gbbs_bg.gif) no-repeat 0 0;
+}
+#wg_gbbs .bbsbox {
+	width:400px;
+	height:29px;
+                margin-left:1px;
+	border-bottom:1px solid #dedede;
+}
+#wg_gbbs .bbsbox li {
+	width:80px;
+                height:25px;
+	list-style:none;
+	float:left;
+                margin-top:1px;
+}
+#wg_gbbs li .gbbs_on {
+	width:110px;
+                height:29px;
+	text-align:center;
+	display:inline-block;
+	background:url(../images/gbbs_tab_on.gif) 0 0 no-repeat;
+}
+#wg_gbbs li .gbbs_on a {
+	width:110px;
+                height:29px;
+	text-align:center;
+	font-weight:bold;
+	display:inline-block;
+	color:#014fa2;
+	background:url(../images/gbbs_tab_on.gif) 0 0 no-repeat;
+}
+#wg_gbbs li .gbbs_on a:hover {
+	width:110px;
+                height:29px;
+	text-align:center;
+	font-weight:bold;
+	color:#014fa2;
+	text-decoration:none;
+	background:url(../images/gbbs_tab_on_bg.gif) 0 0 no-repeat;
+}
+#wg_gbbs li .gbbs_off {
+	width:110px;
+                height:29px;
+	font-weight:bold;
+	text-align:center;
+	display:inline-block;
+	background:url(../images/gbbs_tab_off.gif) 0 0 no-repeat;
+}
+#wg_gbbs li .gbbs_off a {
+	width:110px;
+                height:29px;
+	font-weight:bold;
+	text-align:center;
+	display:inline-block;
+	background:url(../images/latest_tab_off.gif) no-repeat right top;
+	color:#3a3a3a;
+}
+#wg_gbbs .gbbs_off a:hover {
+	width:110px;
+                height:29px;
+	text-align:center;
+	font-weight:bold;
+	color:#6c6a6c;
+	text-decoration:none;
+}
+
+#wg_gbbs .gbbs_data {
+	margin-top:10px;
+	margin-left:10px;
+	width:400px;
+	height:150px;
+	/* overflow: hidden; */
+	
+}
+#wg_gbbs .gbbs_data li {
+	margin:5px;
+border:1px solid red;
+
+}
+#wg_gbbs .gbbs_data .p5 {
+                width:105px;
+                height:60px;
+	padding:5px;
+	float:left;
+	border:1px solid #c1c1c1;
+
+}
+#wg_gbbs .gbbs_data .p5 p {
+text-align:center;
+}
+
+#wg_gbbs .gbbs_data .p5 .list-1 {
+	padding-top:10px;
+}
+#wg_gbbs .gbbs_data .p5 .list-2 {
+	margin-top:2px;
+}
+#wg_gbbs .gbbs_data .tit {
+}
+#wg_gbbs .gbbs_data .more {
+	position:absolute;
+	top:0;
+	right:10px;
+}
+#wg_gbbs .gbbs_data .more a {
+	display:block;
+	width:30px;
+	height:21px;
+	text-align:center;
+	padding-top:6px;
+}
